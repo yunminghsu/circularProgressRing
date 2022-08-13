@@ -42,7 +42,7 @@ label.text="\(percentage)%"
 //建立正方形的圖幅
 let view=UIView(frame: label.frame)
 
-//將圖層一一貼上
+//將圖層按照先後順序貼上
 view.layer.addSublayer(circleLayer)
 view.layer.addSublayer(percentageLayer)
 view.addSubview(label)
